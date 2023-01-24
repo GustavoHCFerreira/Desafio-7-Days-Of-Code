@@ -70,8 +70,6 @@ body {
 }
 
 .principal {
-    width: 75%;
-    margin: auto;
     margin-top: 96px;
 
 }
@@ -93,9 +91,73 @@ body {
 }
 
 .principal__valor {
+    width: 80%;
+    margin: auto;
     text-align: center;
     color: var(--cor-texto);
     margin-top: 36px;
     font-size: 1.4vw;
     line-height: 2.0;
+    width: 80%;
+}
+
+.principal__metricas {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 107px;
+}
+
+.principal__metricas__item {
+    width: 20%;
+}
+
+.quantidades {
+    color: var(--cor-principal);
+    font-size: 40px;
+    text-align: left;;
+}
+
+.subtitulos {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-preto);
+    margin-top: 12px;
+}
+
+.descricao {
+    font-size: 16px;
+    color: var(--cor-texto);
+    margin-top: 8px;
+}
+
+.principal__imagem {
+    width: 100%;
+    margin: auto;
+    margin-top: 140px;
+}
+
+.principal__imagem__titulo {
+    text-align: center;
+    color: var(--cor-principal);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.principal__imagem__descricao {
+    text-align: center;
+    color: var(--cor-preto);
+    font-weight: bold;
+    font-size: 36px;
+    margin-top: 44px;
+}
+
+.principal__imagem__texto {
+    text-align: center;
+    color: var(--cor-texto);
+    margin-top: 30px;
+}
+
+.principal__imagem__img {
+    margin-top: 50px;
 }
