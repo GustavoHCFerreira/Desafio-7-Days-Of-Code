@@ -203,3 +203,35 @@ body {
 .disponibilidade {
     margin-right: 24px;
 }
+
+.depoimentos {
+    background-color: #C3191908;
+    width: 80%; 
+    margin: 100px auto;
+    text-align: center;
+    padding: 64px;
+}
+
+.depoimentos__titulo {
+    color: var(--cor-principal);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.depoimentos__texto {
+    color: var(--cor-preto);
+    font-size: 24px;
+    padding: 12px;
+    line-height: 44px;
+}
+
+.depoimentos__figura__nome {
+    color: var(--cor-preto);
+    font-size: 16px;
+    padding: 10px;
+}
+
+.depoimentos__figura__profissao {
+    color: var(--cor-texto);
+    font-size: 16px;
+}
